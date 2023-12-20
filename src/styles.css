@@ -1,0 +1,97 @@
+/* Style untuk container Slideshow */
+.Container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Style untuk slideshow image */
+.Slideshow {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Slideshow img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style untuk ReviewList */
+.ReviewList {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Style untuk ulasan */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Style untuk RatingMap */
+.RatingMap {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Style untuk peta */
+iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+}
+
+/* Style untuk kategori */
+.categories {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+    color: none;
+  }
+
+    /* Style untuk input filter */
+    input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    
+    button {
+      /* padding: 2px 2px; */
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    button:hover {
+      background-color: #2980b9;
+    }
+    
+    button:disabled {
+      background-color: #ddd;
+      color: #666;
+      cursor: not-allowed;
+    }
