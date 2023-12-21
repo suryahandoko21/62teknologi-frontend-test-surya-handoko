@@ -6,9 +6,6 @@ const ReviewList = (props) => {
   console.log("sss",props.categories);
   return (
     <div>
-      <Link to='/' >
-              kembali halaman utama
-      </Link>
       <h3>Ulasan</h3>
       <ul>
         {reviews.map((review) => (

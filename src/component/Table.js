@@ -48,11 +48,6 @@ const Tables = ({ data }) => {
     <div>
       <div style={{width:750}}>
       <Table borderless >
-      <thead >
-        <tr>
-          <th colSpan={2}><h2>Business Data</h2></th>
-        </tr>
-      </thead>
       <tbody>
         <tr>
           <td>Filter All condition</td>
